@@ -1,0 +1,35 @@
+{
+    "converstions": [
+        {
+            "model": "gpt-4o-mini",
+            "chat-id": "501882769324043",
+            "chat-title": "asdf",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "What is the capital of japan?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "The capital of Japan is Tokyo."
+                },
+                {
+                    "role": "user",
+                    "content": "what about SA"
+                },
+                {
+                    "role": "assistant",
+                    "content": "The capital of Saudi Arabia is Riyadh."
+                },
+                {
+                    "role": "user",
+                    "content": "no I meant sa in africa"
+                },
+                {
+                    "role": "assistant",
+                    "content": "I apologize for the confusion! The capital of South Africa is Pretoria, which serves as the administrative capital. However, South Africa also has two other capitals: Cape Town is the legislative capital, and Bloemfontein is the judicial capital."
+                }
+            ]
+        }
+    ]
+}
