@@ -1,0 +1,80 @@
+#main {
+    grid-size: 2;
+    grid-columns: 7 1fr;
+}
+
+Messages{
+    padding-top: 1;
+    height: auto;
+    width: 100%;
+    align-horizontal: center;
+
+}
+
+.message {
+    width: 80%;
+    height: auto;
+    color: auto;
+    padding: 1 2 0 2;
+    margin-bottom: 2;
+}
+
+AI_message {
+    border: round #be4bdb;
+}
+
+User_message{
+    border: round #12b886;
+}
+
+#input-container {
+    # background: red;
+    height: auto;
+    dock: bottom;
+    align-horizontal: center;
+}
+
+#input-grid {
+    height: auto;
+    grid-size: 2 2;
+    grid-columns: 1fr 10;
+    grid-gutter: 0;
+    width: 75%;
+    background: $surface;
+    # padding: 0 4;
+}
+
+#input-grid > Input{
+    width: 100%;
+    border: none;
+    min-height: 4;
+    padding: 1;
+}
+
+#input-grid > Select {
+    width: 30;
+}
+
+#input-grid > Button {
+    height: 6;
+    width:100%;
+} 
+
+#conversation {
+    align-horizontal: center;
+}
+
+#menu {
+    background: $panel;
+}
+
+#menu > Button {
+    min-width: 5;
+    width: 100%;
+    background: $panel;
+    border: $panel;
+}
+
+#menu > #pallet-btn {
+    dock: bottom;
+}
